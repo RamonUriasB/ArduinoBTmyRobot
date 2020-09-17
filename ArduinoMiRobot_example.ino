@@ -27,7 +27,7 @@ void loop()
 
 void acctionEvent(char newBluetoothEvent)
 {
-  switch (listennerBTEvent)
+  switch (newBluetoothEvent)
   {
     //adelante
     case AHEAD:
