@@ -52,7 +52,7 @@ void acctionEvent(char newBluetoothEvent)
     //activa implemento
     case C_PRESSED:
       myRobot.implement(1, ON);
-      //myRobot.implement(2, ON);
+      myRobot.implement(2, OFF);
       //myRobot.implement(3, ON);
       //myRobot.implement(4, ON);
       break;
@@ -60,7 +60,7 @@ void acctionEvent(char newBluetoothEvent)
     //desactiva implemento
     case C_RELEASED:
       myRobot.implement(1, OFF);
-      //myRobot.implement(2, OFF);
+      myRobot.implement(2, ON);
       //myRobot.implement(3, OFF);
       //myRobot.implement(4, OFF);
       break;
